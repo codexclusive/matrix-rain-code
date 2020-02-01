@@ -75,7 +75,7 @@ START:         MOV   AX,0003H                ; set video mode
                ROL   AX,1                    ;
                AND   AH,03H                  ; beam position between 0-03FFH
                STOSW                         ; 
-               LOOP  @03                     ; after loop, DI=1FE0
+               LOOP  @03                     ; after loop, DI=1FE0H
                                              
                                              
 ;------------- Main cycle                    
