@@ -22,7 +22,7 @@ General information
 
 The code uses 16-bit assembly. All the data are stored in the video memory.
 In the 80x25 text mode, the screen occupies only 4000 bytes in memory, the
-remaining seven pages are free to use. The first page at 0B800H:0000h is occupied
+remaining seven pages are free to use. The first page at 0B800H:0000H is occupied
 by the visible screen. The second page is invisible to the user. This holds
 information about the cycle length of each character on the screen (i. e. how long
 each character is displayed). The third page in video memory contains information 
