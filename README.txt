@@ -30,4 +30,4 @@ about the vertically moving beams: each beam has a position denoted by an intege
 Timing is achieved by the vertical blank technique, which was commonly used with
 CRT monitors.
 
-Feel free to contact me for more details.
+Feel free to contact the author for more details.
