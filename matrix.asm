@@ -11,8 +11,8 @@
 ;              character set.                ;
 ;                                            ; 
                                              ;
-T02            SEGMENT                       ;
-               ASSUME CS:T02                 ;
+MATRIX         SEGMENT                       ;
+               ASSUME CS:MATRIX              ;
                ORG   100H                    ;
 
 
@@ -198,5 +198,5 @@ EXIT:          XOR   AX,AX                   ; read character from buffer
                MOV   AX,4C00H                ; exit to system
                INT   21H                     ;
                                              ;
-T02            ENDS                          ;
+MATRIX         ENDS                          ;
                END   START                   ;
