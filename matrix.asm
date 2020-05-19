@@ -1,14 +1,14 @@
 
-;              Matrix Rain Code              ; 
+;              matrix rain code              ; 
 ;                                            ;
 ;              by Gabor Kotik                ;
 ;              github: codexclusive          ;
 ;                                            ;
-;              Recreates the digital rain    ;
+;              recreates the digital rain    ;
 ;              effect from the movie         ;
 ;              The Matrix, using 16-bit      ;
 ;              assembly and the ascii        ;
-;              character set.                ;
+;              character set                 ;
                                              ;
                                              ;
                org     0100h                 ;
